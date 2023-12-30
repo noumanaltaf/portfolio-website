@@ -37,12 +37,12 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachlor's in Computer Software Engineering",
-    company:'Foundation University Islamabad (FUI)',
+    company:'Foundation University Islamabad',
     location: "Islamabad, Pakistan",
     description:
-      "I completed a four-year program in Computer Software Engineering to earn my bachelor's degree.",
+      "Successfully completed my degree with a major in Software Engineering, and received a merit certificate as well.",
     icon: React.createElement(LuGraduationCap),
-    date: "2017",
+    date: "2013 - 2017",
   },
   {
     title: "Software Engineer",
