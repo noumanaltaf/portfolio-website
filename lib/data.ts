@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import momentumproImg from "@/public/momentum-pro.png";
+import warehouseMobilityImg from "@/public/warehouse-mobility.png";
+import actImg from "@/public/act.png";
+import cgnImg from "@/public/cgn.png";
+import gifwImg from "@/public/gifw.png";
 
 export const links = [
   {
@@ -35,73 +36,92 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachlor's in Computer Software Engineering",
+    company:'Foundation University Islamabad (FUI)',
+    location: "Islamabad, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I completed a four-year program in Computer Software Engineering to earn my bachelor's degree.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    company:'eMumba Pvt Ltd',
+    location: "Islamabad, Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I have predominantly focused on frontend development, with a primary emphasis on React.js and some exposure to Angular.js.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2017 - 2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Senior Software Developer",
+    company:'Markinson Business Software Solutions',
+    location: "Remote, Islamabad",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "My primary role involves managing the frontend development in React.js, alongside contributing to projects using Xamarin Forms and ASP.NET Web APIs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Momentum Pro",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "For the past 4.7 years, I have been actively involved in the development of Momentup Pro, an ERP system designed for warehouse management. This application is built using React.js.",
+    // tags: ["context api", "Azure DevOps Services", "react query", "React Hooks", "material ui", "Storybooks", "Jest", "Jenkins", "Highcharts", "Redux.js", "redux", "saga", "DevExpress", "React.js", "ASP.NET" ,"Web API"],
+    tags: ["React js", 'TypeScript', "Redux", "React Query", "ASP.Net Web Api"],
+    imageUrl: momentumproImg,
   },
   {
-    title: "rmtDev",
+    title: "Warehouse Mobility",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Effective management of stock on hand in the warehouse, fast, accurate picking of customer orders and timely, efficient processing of stock receipts are critical for the operation of any warehouse.",
+    tags: ["Xamarin Forms", "C#"],
+    imageUrl: warehouseMobilityImg,
   },
   {
-    title: "Word Analytics",
+    title: "CGN",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting.",
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+    imageUrl: cgnImg,
+  },
+  {
+    title: "GIFW",
+    description:
+      " The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.",
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+    imageUrl: gifwImg,
+  },
+  {
+    title: "AppCentric Templates (ACT)",
+    description:
+      "AppCentric Templates (ACT) Wizard, Advanced Configurations, Dashboards, Troubleshooting, Dashboard Wizard and Cloud-based updates.",
+    tags: ["React", "redux"],
+    imageUrl: actImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
+  "HTML5",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  'SCSS/styled-components',
+  'React',
+  'Next js',
+  'JavaScript',
+  'Typescript',
+  'Redux',
+  'React Query',
+  "Redux-saga/thunk",
+  "MySQL",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Unit testing/storyboarding",
+  'Xamarin Forms',
+  'C#',
+  'SOAP',
+  'REST',
+  ' Node js',
+  'Express Js',
+  'Agile Development'
 ] as const;
