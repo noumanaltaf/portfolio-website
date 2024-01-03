@@ -37,7 +37,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachlor's in Computer Software Engineering",
-    company:'Foundation University Islamabad',
+    company: 'Foundation University Islamabad',
     location: "Islamabad, Pakistan",
     description:
       "Successfully completed my degree with a major in Software Engineering, and received a merit certificate as well.",
@@ -46,7 +46,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    company:'eMumba Pvt Ltd',
+    company: 'eMumba Pvt Ltd',
     location: "Islamabad, Pakistan",
     description:
       "I have predominantly focused on frontend development, with a primary emphasis on React.js and some exposure to Angular.js.",
@@ -55,7 +55,7 @@ export const experiencesData = [
   },
   {
     title: "Senior Software Developer",
-    company:'Markinson Business Software Solutions',
+    company: 'Markinson Business Software Solutions',
     location: "Remote, Islamabad",
     description:
       "My primary role involves managing the frontend development in React.js, alongside contributing to projects using Xamarin Forms and ASP.NET Web APIs.",
@@ -72,6 +72,7 @@ export const projectsData = [
     // tags: ["context api", "Azure DevOps Services", "react query", "React Hooks", "material ui", "Storybooks", "Jest", "Jenkins", "Highcharts", "Redux.js", "redux", "saga", "DevExpress", "React.js", "ASP.NET" ,"Web API"],
     tags: ["React js", 'TypeScript', "Redux", "React Query", "ASP.Net Web Api"],
     imageUrl: momentumproImg,
+    href: 'https://www.markinson.com.au/front-office'
   },
   {
     title: "Warehouse Mobility",
@@ -79,6 +80,7 @@ export const projectsData = [
       "Effective management of stock on hand in the warehouse, fast, accurate picking of customer orders and timely, efficient processing of stock receipts are critical for the operation of any warehouse.",
     tags: ["Xamarin Forms", "C#"],
     imageUrl: warehouseMobilityImg,
+    href: 'https://www.markinson.com.au/warehouse-mobility'
   },
   {
     title: "CGN",
@@ -86,6 +88,7 @@ export const projectsData = [
       "The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting.",
     tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
     imageUrl: cgnImg,
+    href: 'https://www.youtube.com/watch?v=73dlmjx5YOo'
   },
   {
     title: "GIFW",
@@ -93,6 +96,7 @@ export const projectsData = [
       " The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.",
     tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
     imageUrl: gifwImg,
+    href: 'https://www.youtube.com/watch?v=oU3AHt67ME0'
   },
   {
     title: "AppCentric Templates (ACT)",
@@ -100,6 +104,7 @@ export const projectsData = [
       "AppCentric Templates (ACT) Wizard, Advanced Configurations, Dashboards, Troubleshooting, Dashboard Wizard and Cloud-based updates.",
     tags: ["React", "redux"],
     imageUrl: actImg,
+    href: 'https://www.youtube.com/watch?v=A5k9zf4ayuo'
   },
 ] as const;
 

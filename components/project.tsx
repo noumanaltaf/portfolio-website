@@ -13,6 +13,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  href
 }: ProjectProps) {
 
   const ref = useRef<HTMLDivElement>(null);
@@ -74,11 +75,11 @@ export default function Project({
         </section>
       </motion.div>
       <Modal isOpen={isModalOpen} handleClose={() => setIsModalOpen(false)}>
-        <section className="bg-no-repeat bg-[length:100%_230px] p-[20px] pt-[240px] rounded-md" style={{backgroundImage: `url(${imageUrl.src})`}}>
+        <section className="bg-no-repeat bg-[length:100%_230px] p-[20px] pt-[240px] rounded-md" style={{ backgroundImage: `url(${imageUrl.src})` }}>
           <h3 className="font-semibold text-lg leading-7">{title}</h3>
           <p className="mt-2">{description}</p>
           <ul className="flex gap-2 flex-wrap mt-4">
-               {tags.map((tag, index)=>  <li key={index} className="bg-gray-100 dark:bg-gray-800 tracking-wider uppercase text-xs pt-1 pb-1 pl-3 pr-3 rounded-full">{tag}</li>)}
+            {tags.map((tag, index) => <li key={index} className="bg-gray-100 dark:bg-gray-800 tracking-wider uppercase text-xs pt-1 pb-1 pl-3 pr-3 rounded-full">{tag}</li>)}
           </ul>
         </section>
       </Modal>
