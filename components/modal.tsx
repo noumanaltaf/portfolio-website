@@ -38,7 +38,7 @@ const Modal = ({ handleClose, children, isOpen }: IModalProps) => {
                             onClick={(e) => e.stopPropagation()}  // Prevent click from closing modal
                             className="w-[calc(100%-20px)] m-auto md:m-0 md:w-[500px] h-auto bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-md"
                             variants={containerVariant}>
-                            <IoIosClose onClick={handleClose} className="absolute right-0 text-5xl float-right cursor-pointer" />
+                            <IoIosClose onClick={handleClose} className="absolute text-black right-0 text-5xl float-right cursor-pointer" />
                             <motion.div className="h-full w-full flex justify-center items-center">
                                 {children}
                             </motion.div>

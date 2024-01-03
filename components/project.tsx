@@ -5,6 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Modal from "./modal";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -26,6 +27,8 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  const firstThreeTags = tags.slice(0, 3);
+
   return (
     <>
       <motion.div
@@ -44,7 +47,7 @@ export default function Project({
               {description}
             </p>
             <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-              {tags.map((tag, index) => (
+              {firstThreeTags.map((tag, index) => (
                 <li
                   className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                   key={index}
@@ -59,7 +62,7 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={95}
-            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            className="absolute hidden sm:block top-8 -right-40 w-[452px] h-[237px] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
@@ -76,7 +79,10 @@ export default function Project({
       </motion.div>
       <Modal isOpen={isModalOpen} handleClose={() => setIsModalOpen(false)}>
         <section className="bg-no-repeat bg-[length:100%_230px] p-[20px] pt-[240px] rounded-md" style={{ backgroundImage: `url(${imageUrl.src})` }}>
+          <div className="flex gap-2 items-center">
           <h3 className="font-semibold text-lg leading-7">{title}</h3>
+          <FaExternalLinkAlt className="cursor-pointer" onClick={()=> window.open(href)}/>
+          </div>
           <p className="mt-2">{description}</p>
           <ul className="flex gap-2 flex-wrap mt-4">
             {tags.map((tag, index) => <li key={index} className="bg-gray-100 dark:bg-gray-800 tracking-wider uppercase text-xs pt-1 pb-1 pl-3 pr-3 rounded-full">{tag}</li>)}

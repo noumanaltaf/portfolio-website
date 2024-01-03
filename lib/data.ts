@@ -69,8 +69,7 @@ export const projectsData = [
     title: "Momentum Pro",
     description:
       "For the past 4.7 years, I have been actively involved in the development of Momentup Pro, an ERP system designed for warehouse management. This application is built using React.js.",
-    // tags: ["context api", "Azure DevOps Services", "react query", "React Hooks", "material ui", "Storybooks", "Jest", "Jenkins", "Highcharts", "Redux.js", "redux", "saga", "DevExpress", "React.js", "ASP.NET" ,"Web API"],
-    tags: ["React js", 'TypeScript', "Redux", "React Query", "ASP.Net Web Api"],
+    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Azure DevOps Services", "Storybooks", "Jest", "Jenkins", "Highcharts", "redux", "saga", "DevExpress", "ASP.NET", "Web API"],
     imageUrl: momentumproImg,
     href: 'https://www.markinson.com.au/front-office'
   },
@@ -86,7 +85,7 @@ export const projectsData = [
     title: "CGN",
     description:
       "The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting.",
-    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: cgnImg,
     href: 'https://www.youtube.com/watch?v=73dlmjx5YOo'
   },
@@ -94,7 +93,7 @@ export const projectsData = [
     title: "GIFW",
     description:
       " The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.",
-    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: gifwImg,
     href: 'https://www.youtube.com/watch?v=oU3AHt67ME0'
   },
