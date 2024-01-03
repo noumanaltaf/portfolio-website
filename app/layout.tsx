@@ -38,6 +38,7 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+        <div id="modal-root"></div>
       </body>
     </html>
   );

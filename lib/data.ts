@@ -68,9 +68,10 @@ export const projectsData = [
   {
     title: "Momentum Pro",
     description:
-      "For the past 4.7 years, I have been actively involved in the development of Momentup Pro, an ERP system designed for warehouse management. This application is built using React.js.",
-    // tags: ["context api", "Azure DevOps Services", "react query", "React Hooks", "material ui", "Storybooks", "Jest", "Jenkins", "Highcharts", "Redux.js", "redux", "saga", "DevExpress", "React.js", "ASP.NET" ,"Web API"],
-    tags: ["React js", 'TypeScript', "Redux", "React Query", "ASP.Net Web Api"],
+      `For the past 4.7 years, I have been actively involved in the development of Momentup Pro, an ERP system designed for warehouse management. 
+      \nThis application is built using React.js. The MomentumPro Front Office Sales module provides immediate and accurate access to information on stock availability and movements, 
+      customer sales history, and order status, resulting in improved staff performance and flexibility, more satisfied customers and cost savings.`,
+    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Azure DevOps Services", "Storybooks", "Jest", "Jenkins", "Highcharts", "redux", "saga", "DevExpress", "ASP.NET", "Web API"],
     imageUrl: momentumproImg,
     href: 'https://www.markinson.com.au/front-office'
   },
@@ -85,16 +86,18 @@ export const projectsData = [
   {
     title: "CGN",
     description:
-      "The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting.",
-    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+      `The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting. 
+      \nI was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.`,
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: cgnImg,
     href: 'https://www.youtube.com/watch?v=73dlmjx5YOo'
   },
   {
     title: "GIFW",
     description:
-      " The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.",
-    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design"],
+      `The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.
+      \nI was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.`,
+    tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: gifwImg,
     href: 'https://www.youtube.com/watch?v=oU3AHt67ME0'
   },
@@ -128,5 +131,6 @@ export const skillsData = [
   'REST',
   ' Node js',
   'Express Js',
+  "Asp.Net WebApi",
   'Agile Development'
 ] as const;
