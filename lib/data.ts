@@ -71,7 +71,7 @@ export const projectsData = [
       `For the past 4.7 years, I have been actively involved in the development of Momentup Pro, an ERP system designed for warehouse management. 
       \nThis application is built using React.js. The MomentumPro Front Office Sales module provides immediate and accurate access to information on stock availability and movements, 
       customer sales history, and order status, resulting in improved staff performance and flexibility, more satisfied customers and cost savings.`,
-    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Azure DevOps Services", "Storybooks", "Jest", "Jenkins", "Highcharts", "redux", "saga", "DevExpress", "ASP.NET", "Web API"],
+    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Azure DevOps Services", "Storybooks", "Jest", "Jenkins", "Highcharts", "redux", "saga", "DevExpress", "ASP.NET Web API", 'Lodash', 'Ramda js', 'underscore'],
     imageUrl: momentumproImg,
     href: 'https://www.markinson.com.au/front-office'
   },
@@ -82,6 +82,15 @@ export const projectsData = [
     tags: ["Xamarin Forms", "C#"],
     imageUrl: warehouseMobilityImg,
     href: 'https://www.markinson.com.au/warehouse-mobility'
+  },
+  {
+    title: "Service Mobility",
+    description:
+      `Developed a module in MomentumPro React App for Service Mobility Functionality also create an Android App in Xamarin forms for the users.
+      \nAs an optional module addition to MomentumPro, Service Mobility delivers a powerful visual scheduling tool for customer service and workflows, all seamlessly integrated into the full business ERP.`,
+    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Xamarin Forms", "C#"],
+    imageUrl: warehouseMobilityImg,
+    href: 'https://www.markinson.com.au/service-mobility'
   },
   {
     title: "CGN",
