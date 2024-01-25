@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import momentumproImg from "@/public/momentum-pro.png";
 import warehouseMobilityImg from "@/public/warehouse-mobility.png";
+import serviceMobilityImg from "@/public/service-mobility.png";
 import actImg from "@/public/act.png";
 import cgnImg from "@/public/cgn.png";
 import gifwImg from "@/public/gifw.png";
@@ -86,10 +87,10 @@ export const projectsData = [
   {
     title: "Service Mobility",
     description:
-      `Developed a module in MomentumPro React App for Service Mobility Functionality also create an Android App in Xamarin forms for the users.
+      `Developed an Android App in Xamarin forms that guides technicians through their scheduled jobs and activities ensuring a consistent high level of service.
       \nAs an optional module addition to MomentumPro, Service Mobility delivers a powerful visual scheduling tool for customer service and workflows, all seamlessly integrated into the full business ERP.`,
-    tags: ["React.js", "Redux.js", "react query", "React Hooks", "material ui", "context api", "Xamarin Forms", "C#"],
-    imageUrl: warehouseMobilityImg,
+    tags: ["Xamarin Forms", "C#"],
+    imageUrl: serviceMobilityImg,
     href: 'https://www.markinson.com.au/service-mobility'
   },
   {
