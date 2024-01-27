@@ -7,6 +7,7 @@ import serviceMobilityImg from "@/public/service-mobility.png";
 import actImg from "@/public/act.png";
 import cgnImg from "@/public/cgn.png";
 import gifwImg from "@/public/gifw.png";
+import lexstepImg from "@/public/lexstep.png";
 
 export const links = [
   {
@@ -79,7 +80,8 @@ export const projectsData = [
   {
     title: "Warehouse Mobility",
     description:
-      "Effective management of stock on hand in the warehouse, fast, accurate picking of customer orders and timely, efficient processing of stock receipts are critical for the operation of any warehouse.",
+    `Effective management of stock on hand in the warehouse, fast, accurate picking of customer orders and timely, efficient processing of stock receipts are critical for the operation of any warehouse.
+      \n In summary, the Warehouse Mobility for MomentumPro ERP project outcomes include mobile-enabled warehouse management, a tailor-made platform, effective stock management, efficient order picking, timely stock receipt processing, a collaborative development approach, operational criticality, and enhanced workflow efficiency. These outcomes collectively contribute to the optimization of warehouse operations and the overall success of the ERP system in meeting the specific needs of the business.`,
     tags: ["Xamarin Forms", "C#"],
     imageUrl: warehouseMobilityImg,
     href: 'https://www.markinson.com.au/warehouse-mobility'
@@ -88,7 +90,8 @@ export const projectsData = [
     title: "Service Mobility",
     description:
       `Developed an Android App in Xamarin forms that guides technicians through their scheduled jobs and activities ensuring a consistent high level of service.
-      \nAs an optional module addition to MomentumPro, Service Mobility delivers a powerful visual scheduling tool for customer service and workflows, all seamlessly integrated into the full business ERP.`,
+      As an optional module addition to MomentumPro, Service Mobility delivers a powerful visual scheduling tool for customer service and workflows, all seamlessly integrated into the full business ERP.
+      \nIn summary, the Service Mobility module outcomes include a customer-centric approach, seamless integration with MomentumPro ERP, a visual scheduling tool for efficient management, a guided mobile service app for technicians, a consistent high level of service, efficient identification and scheduling of future service jobs, and enhanced workflows. These outcomes collectively contribute to improved customer service, operational efficiency, and the potential for ongoing business growth through repeat service engagements.`,
     tags: ["Xamarin Forms", "C#"],
     imageUrl: serviceMobilityImg,
     href: 'https://www.markinson.com.au/service-mobility'
@@ -96,8 +99,10 @@ export const projectsData = [
   {
     title: "CGN",
     description:
-      `The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting. 
-      \nI was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.`,
+      `The app provides real-time actionable insights on network and subscriber behavior for faster analysis and troubleshooting.
+      I was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.
+      Utilized on React, Redux, and other related libraries.
+      \nIn summary, the outcomes of the project include the successful implementation of real-time actionable insights, efficient analysis and troubleshooting, utilization of React visualization techniques for handling data-intensive displays, a user-friendly interface, enhanced data presentation, improved user experience, and effective problem resolution. These outcomes collectively contribute to the application's effectiveness in providing valuable insights and addressing challenges related to network and subscriber behavior.`,
     tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: cgnImg,
     href: 'https://www.youtube.com/watch?v=73dlmjx5YOo'
@@ -106,7 +111,8 @@ export const projectsData = [
     title: "GIFW",
     description:
       `The app provides actionable insights on application, network and subscriber behavior so that issues can be caught quickly.
-      \nI was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.`,
+      I was involved in a project that utilized React.js, Ramda.js, and various chart libraries. The project was data-intensive, involving the display of over 10,000 logs on the user interface. To address this challenge, I employed React visualization techniques.
+      \nIn conclusion, the project has achieved success in implementing an application that delivers actionable insights, enabling swift issue identification and efficient problem resolution. It excels in handling large volumes of data, offering a user-friendly visualization experience. The application facilitates comprehensive monitoring, empowers enhanced decision-making, and leverages modern web technologies for scalability and optimal performance. Additionally, its proactive approach aids in issue prevention, collectively enhancing its effectiveness in monitoring and optimizing application, network, and subscriber behavior.`,
     tags: ["React", "redux", "redux thunk", "ramda js", "Highcharts", "D3.js", "Ant Design", "SCSS"],
     imageUrl: gifwImg,
     href: 'https://www.youtube.com/watch?v=oU3AHt67ME0'
@@ -115,9 +121,18 @@ export const projectsData = [
     title: "AppCentric Templates (ACT)",
     description:
       "AppCentric Templates (ACT) Wizard, Advanced Configurations, Dashboards, Troubleshooting, Dashboard Wizard and Cloud-based updates.",
-    tags: ["Html", "CSS", "Angular", "bootstrap"],
+    tags: ["Html", "CSS", "Angular", "bootstrap","SCSS"],
     imageUrl: actImg,
     href: 'https://www.youtube.com/watch?v=A5k9zf4ayuo'
+  },  
+  {
+    title: "Lexstep",
+    description:
+      `I contributed to the development of a job portal designed for solicitors, built using Angular v1.7.9. The portal successfully catered to a user base exceeding 50,000 individuals.
+      \n The outcome of the project involved the successful development of a job portal for solicitors using Angular v1.7.9. The portal achieved effectiveness by serving a substantial user base of over 50,000 users. `,
+    tags: ["Html", "CSS", "Angular", "bootstrap","AWS"],
+    imageUrl: lexstepImg,
+    href: 'https://www.lexstep.com/'
   },
 ] as const;
 

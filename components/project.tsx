@@ -83,7 +83,7 @@ export default function Project({
           <h3 className="font-semibold text-lg leading-7">{title}</h3>
           <FaExternalLinkAlt className="cursor-pointer" onClick={()=> window.open(href)}/>
           </div>
-          <p className="mt-2 whitespace-pre-line">{description}</p>
+          <p className="mt-2 whitespace-pre-line max-h-[300px] overflow-auto">{description}</p>
           <ul className="flex gap-2 flex-wrap mt-4">
             {tags.map((tag, index) => <li key={index} className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70">{tag}</li>)}
           </ul>
