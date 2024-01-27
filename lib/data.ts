@@ -115,7 +115,7 @@ export const projectsData = [
     title: "AppCentric Templates (ACT)",
     description:
       "AppCentric Templates (ACT) Wizard, Advanced Configurations, Dashboards, Troubleshooting, Dashboard Wizard and Cloud-based updates.",
-    tags: ["React", "redux"],
+    tags: ["Html", "CSS", "Angular", "bootstrap"],
     imageUrl: actImg,
     href: 'https://www.youtube.com/watch?v=A5k9zf4ayuo'
   },
