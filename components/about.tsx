@@ -19,19 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      🚀 Senior Full Stack Developer (Frontend Heavy) with 6+ years specializing in React js. 
-      Proficient in Redux, React-query for state management and MySQL/MongoDB for robust backend integrations. 
-      Adept at crafting seamless user experiences through innovative technologies.
-     </p>
-     <p>
-      💻 Full-stack expertise covering JavaScript, TypeScript, C#, HTML5, CSS, and SCSS/styled-components.
-       Proven track record in Xamarin Forms for cross-platform mobile development.
-        Skilled in Agile Development, enhancing collaborative workflows and delivering high-quality, bug-free code by following TDD.
-    </p>
-    <p>
-    📡 Well-versed in backend technologies (ASP.Net WebApi, Express.js) and API integration (SOAP, REST). 
-    Actively engaged in the tech community, committed to staying ahead of industry trends while contributing to efficient development processes.
-     <br></br><br></br>Let's connect and explore opportunities at the intersection of technology and creativity!
+        🚀 Senior Full Stack Developer with over 6 years of experience, I specialize in frontend technologies, particularly JavaScript and TypeScript. Proficient in React.js, Angular, AngularJS, Next.js, and Vue.js, I excel at creating dynamic and responsive user interfaces. My expertise also includes state management solutions like Redux, Context API, Vuex, and React Query, ensuring scalable and efficient data flow within applications.<br /><br />
+      </p>
+      <p>
+        💻 In the backend realm, I specialize in Node.js and Express.js, leveraging
+        their robust capabilities to build scalable and performant server-side
+        applications. Additionally, I have experience with ASP.NET Web APIs,
+        offering versatility in backend development frameworks.
+      </p>
+      <p>
+        My commitment to quality assurance is demonstrated through my proficiency in
+        Test-Driven Development (TDD), employing tools like Jest, React Testing
+        Library, and Cypress to ensure the reliability and functionality of my code.
+        With a strong foundation in both frontend and backend technologies, along
+        with a dedication to best practices and Agile methodologies, I am equipped
+        to deliver high-quality, scalable, and user-centric web solutions.
+        <br></br><br></br>Let's connect and explore opportunities at the intersection of technology and creativity!
       </p>
     </motion.section>
   );
