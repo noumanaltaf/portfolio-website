@@ -18,10 +18,11 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        🚀 Senior Full Stack Developer with over 6 years of experience, I specialize in frontend technologies, particularly JavaScript and TypeScript. Proficient in React.js, Angular, AngularJS, Next.js, and Vue.js, I excel at creating dynamic and responsive user interfaces. My expertise also includes state management solutions like Redux, Context API, Vuex, and React Query, ensuring scalable and efficient data flow within applications.<br /><br />
+      <p className="mb-4">
+        🚀 Senior Full Stack Developer (Front End Heavy) with over 6 years of experience, I specialize in frontend technologies, particularly React.js, Angular, Next.js, and Vue.js. Proficient in JavaScript and TypeScript, I excel at creating dynamic and responsive user interfaces.
+        My expertise also includes state management solutions like Redux, Context API, Vuex, and React Query, ensuring scalable and efficient data flow within applications.
       </p>
-      <p>
+      <p className="mb-4">
         💻 In the backend realm, I specialize in Node.js and Express.js, leveraging
         their robust capabilities to build scalable and performant server-side
         applications. Additionally, I have experience with ASP.NET Web APIs,
