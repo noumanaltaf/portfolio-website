@@ -64,6 +64,15 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2019 - present",
   },
+  {
+    title: "Senior Frontend Developer",
+    company: 'Saudi Information Technology Company - SITE',
+    location: "Riyadh, KSA",
+    description:
+      "My primary role involves Develop secure, scalable government applications with Keycloak, Playwright, and React, ensuring robust architecture, testing, and UI/UX precision.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
 ] as const;
 
 export const projectsData = [
