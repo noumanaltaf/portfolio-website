@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nouman Altaf | Personal Portfolio",
-  description: "Nouman Altaf is a full-stack developer (Frontend Heavy) with 6 years of experience.",
+  description: "Nouman Altaf is a full-stack developer (Frontend Heavy) with more than 7 years of experience.",
 };
 
 export default function RootLayout({
