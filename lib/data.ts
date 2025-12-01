@@ -146,25 +146,50 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML5",
-  "CSS",
-  'SCSS/styled-components',
-  'React',
-  'Next js',
-  'JavaScript',
-  'Typescript',
-  'Redux',
-  'React Query',
-  "Redux-saga/thunk",
-  "MySQL",
-  "MongoDB",
-  "Unit testing/storyboarding",
-  'Xamarin Forms',
-  'C#',
-  'SOAP',
-  'REST',
-  ' Node js',
-  'Express Js',
-  "Asp.Net WebApi",
-  'Agile Development'
+ // Languages / Frameworks / Libraries
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Redux",
+  "React Query",
+  "GraphQL",
+  "CSS-in-JS",
+  "Bootstrap",
+  "TailwindCSS",
+  "Material UI",
+  "Ant Design",
+  "D3.js",
+  "Highcharts",
+  "react-vis",
+
+  // Backend / APIs / Architecture
+  "Express.js",
+  "ASP.NET Core Web API",
+  "REST",
+  "Modular Architecture",
+  "Monolithic Architecture",
+  "Microservices",
+
+  // Testing / DevOps
+  "Jest",
+  "Enzyme",
+  "React Testing Library",
+  "Playwright",
+  "Cypress",
+  "Storybook",
+  "Git",
+  "Jenkins",
+  "Azure DevOps",
+  "Docker",
+  "CI/CD",
+
+  // Authentication / Practices
+  "OAuth",
+  "Keycloak",
+  "Agile Development",
+  "Responsive UI",
+  "Accessibility (A11y)",
+  "i18n",
+  "Web Performance Optimization"
 ] as const;
