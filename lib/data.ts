@@ -62,7 +62,7 @@ export const experiencesData = [
     description:
       "My primary role involves managing the frontend development in React.js, alongside contributing to projects using Xamarin Forms and ASP.NET Web APIs.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - present",
+    date: "2019 - 2024",
   },
   {
     title: "Senior Frontend Developer",
