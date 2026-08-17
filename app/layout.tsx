@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nouman Altaf | Personal Portfolio",
-  description: "Nouman Altaf is a Senior Frontend developer with more than 8 years of experience.",
+  description: "Nouman Altaf is a Senior Fullstack Developer (Frontend Heavy) with over 9 years of experience.",
 };
 
 export default function RootLayout({

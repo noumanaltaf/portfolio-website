@@ -17,7 +17,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-4">
-        🚀 Senior Frontend Developer with more than 8 years of experience, I specialize in frontend technologies, particularly React.js, Next.js and Angular Proficient in JavaScript and TypeScript, I excel at creating dynamic and responsive user interfaces.
+        🚀 Senior Fullstack Developer (Frontend Heavy) with over 9 years of experience, I specialize in frontend technologies, particularly React.js, Next.js and Angular Proficient in JavaScript and TypeScript, I excel at creating dynamic and responsive user interfaces.
         My expertise also includes state management solutions like Redux, Context API, and React Query, ensuring scalable and efficient data flow within applications.
       </p>
       <p className="mb-4">

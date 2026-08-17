@@ -65,7 +65,7 @@ export const experiencesData = [
     date: "2019 - 2024",
   },
   {
-    title: "Senior Frontend Developer",
+    title: "Senior Fullstack Developer (Frontend Heavy)",
     company: 'Saudi Information Technology Company - SITE',
     location: "Riyadh, KSA",
     description:
